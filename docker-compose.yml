@@ -1,0 +1,16 @@
+services:
+  overlayr:
+    build: .
+    ports:
+      - "5337:5337"
+    environment:
+      - PORT=5337
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
+      - DATA_DIR=/data
+      - BASE_URL=${BASE_URL:-}
+    volumes:
+      - overlayr-data:/data
+    restart: unless-stopped
+
+volumes:
+  overlayr-data:

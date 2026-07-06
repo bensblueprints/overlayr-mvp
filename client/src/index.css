@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-zinc-950 text-zinc-100 antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 6px; }
+
+input, textarea, select {
+  @apply bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-sm text-zinc-100 outline-none w-full;
+}
+input:focus, textarea:focus, select:focus { @apply border-violet-500 ring-1 ring-violet-500/40; }
+label { @apply block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5; }
+
+.checkerboard {
+  background-image: linear-gradient(45deg, #27272a 25%, transparent 25%),
+    linear-gradient(-45deg, #27272a 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #27272a 75%),
+    linear-gradient(-45deg, transparent 75%, #27272a 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  background-color: #18181b;
+}

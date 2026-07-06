@@ -1,0 +1,9 @@
+node_modules/
+dist/
+release/
+data/
+test-data/
+vendor/*.node
+*.log
+.DS_Store
+.env
