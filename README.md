@@ -12,7 +12,7 @@ Self-hosted stream overlays for OBS: countdown timers, goal bars, rotating messa
 
 Don't want to touch a terminal? Grab the packaged installer (Windows desktop app + guided VPS deploy) here:
 
-**→ [https://whop.com/onetime-suite](https://whop.com/onetime-suite)** — one-time purchase, lifetime updates.
+**→ [https://whop.com/benjisaiempire/overlayr](https://whop.com/benjisaiempire/overlayr)** — one-time purchase, lifetime updates.
 
 ## Features
 
